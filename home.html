@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <p id="txt1"></p>
+    <button type="button" onclick="myfunction()">CLICK ME</button>
+    <button type="button" onclick="prayut()">KICK OFF</button>
+    <p id="txt2"></p>
+    <button type="button" onclick="syntax()">VAR</button>
+    <h1 id="txt3"></h1>
+    <button type="button" onclick="OC()">open/close</button>
+    <select name="" id="txt4" onchange="select()">
+        <option value="AUDI">AUDI</option>
+        <option value="BMW">BMW</option>
+        <option value="BENZ">BENZ</option>
+        <option value="VOLVO">VOLVO</option>
+    </select>
+    <h2 id="txt5"></h2>
+    <button type="button" onclick="Javascript:alert('hello prayut');">button1</button>
+    <button type="button" onclick="fncalert()">button2</button>
+    <button type="button" onclick="fconfirm()">button3</button>
+    <form action="" method="post" onsubmit="Javascript:return fsubmit();">
+        <input type="text">
+        <input type="submit" value="SUBMIT">
+    </form>
+</body>
+<script>
+    document.getElementById("txt1").innerHTML = "KANATIP WONGKITI";
+
+    function myfunction(){
+        document.getElementById("txt1").innerHTML = "Paint"
+    }
+</script>
+</html>
